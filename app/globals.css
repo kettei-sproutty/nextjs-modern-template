@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/** Explained in the article below
+ * https://adrianroselli.com/2024/03/the-ultimate-ideal-bestest-base-font-size-that-everyone-is-keeping-a-secret-especially-chet.html
+ */
+html {
+  font-size: 100%;
+}
+
+@media print {
+  body {
+    font-size: 8pt;
+  }
+}

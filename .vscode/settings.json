@@ -1,0 +1,12 @@
+{
+  "editor.defaultFormatter": "biomejs.biome",
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml",
+    "evenBetterToml.taploConfig": "./taplo.toml"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+    ["cn\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ]
+}

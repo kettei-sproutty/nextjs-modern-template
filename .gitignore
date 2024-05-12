@@ -1,0 +1,18 @@
+# Node
+node_modules
+
+# Next
+.next
+out
+
+# Misc
+.DS_Store
+
+# Debug
+.pnpm-debug.log*
+
+# Envs
+.env*.local
+
+# Typescript
+next-env.d.ts
